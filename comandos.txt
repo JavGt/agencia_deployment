@@ -1,0 +1,7 @@
+Comandos usados en este proyecto
+======================================
+    npm install express  
+======================================
+    npm i --save-dev nodemon
+======================================
+    npm i --save-dev dotenv
