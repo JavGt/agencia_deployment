@@ -5,3 +5,5 @@ Comandos usados en este proyecto
     npm i --save-dev nodemon
 ======================================
     npm i --save-dev dotenv
+======================================
+    heroku create --remote production

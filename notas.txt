@@ -1,0 +1,14 @@
+ mysqldump -u root -u agenciaviajes > agenciaviajes.sql
+ heroku config | grep CLEARDB_DATABASE_URL
+
+ mysql://bc588d0cfec693:b8a61aac@us-cdbr-east-05.cleardb.net/heroku_d807c685da31539?reconnect=true
+
+ mysql -u bc588d0cfec693 -h us-cdbr-east-05.cleardb.net -p heroku_d807c685da31539 < agenciaviajes.sql
+
+ user : bc588d0cfec693
+
+ contraseña: b8a61aac
+
+ servidor: us-cdbr-east-05.cleardb.net
+
+ bd: heroku_d807c685da31539
